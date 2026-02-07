@@ -1,14 +1,14 @@
-import {describe, it, expect } from 'vitest'
-import { addTwoNumbers } from '../functions/Operation';
+import {describe, it, expect } from 'vitest';
+import { addTwoNumbers } from '../src/functions/Operation';
+
+
 
 
 describe('addTwoNumbers'), () => {
-    it("should add two positive numbers", () => {
-        const a = 6;
-        const b = 6;
-
-        expect(addTwoNumbers(a, b)).toBe(12);
-
-    })
-    
+    it("should add two numbers", () => {
+        const a = 1;
+        const b = 2;
+        
+        expect(addTwoNumbers(a, b)).toBe(3)
+       })
 }
