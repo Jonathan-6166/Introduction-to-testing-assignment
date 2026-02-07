@@ -1,5 +1,5 @@
 import {describe, it, expect } from 'vitest';
-import { addTwoNumbers } from '../src/functions/Operation';
+import { addTwoNumbers } from '../functions/Operation';
 
 
 
